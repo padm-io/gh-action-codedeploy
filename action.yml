@@ -1,0 +1,9 @@
+name: "gh-action-codedeploy"
+description: "Deploy your code with AWS CodeDeploy to your instance"
+author: Padm™
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: refresh-cw
+  color: green
