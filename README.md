@@ -22,7 +22,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Trigger Code Deploy
+      - name: aws CodeDeploy
         uses: padm-io/gh-action-codedeploy@main
         env:
           AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
